@@ -1,0 +1,26 @@
+[
+    {
+        "name":"name1",
+        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae modi ea ratione beatae perspiciatis tenetur sequi nobis reiciendis",
+        "imgsrc":"",
+        "rating":5
+    },
+    {
+        "name":"name2",
+        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae modi ea ratione beatae perspiciatis tenetur sequi nobis reiciendis",
+        "imgsrc":"",
+        "rating":4
+    },
+    {
+        "name":"name3",
+        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae modi ea ratione beatae perspiciatis tenetur sequi nobis reiciendis",
+        "imgsrc":"",
+        "rating":5
+    },
+    {
+        "name":"name4",
+        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae modi ea ratione beatae perspiciatis tenetur sequi nobis reiciendis",
+        "imgsrc":"",
+        "rating":4
+    }
+]

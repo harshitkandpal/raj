@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ImageModal from './ImageModal'; // Import the modal component
 import images from '../URL.json';
+import Feedback from './Feedback';
 
 const MyWork = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -14,10 +15,11 @@ const MyWork = () => {
   };
 
   return (
-    <section id="my-work" className="section-2">
+    <div>
+      <section id="my-work" className="section-2 bg-gray-100 py-0">
       <div className="w-layout-grid grid">
         {images.map((src, index) => (
-          <div key={index} className="div-block">
+          <div key={index} className="div-block shadow-lg">
             <img
               src={src}
               loading="lazy"
@@ -31,6 +33,10 @@ const MyWork = () => {
       </div>
       {selectedImage && <ImageModal src={selectedImage} onClose={closeModal} />}
     </section>
+    <section>
+      <Feedback/>
+    </section>
+    </div>
   );
 };
 

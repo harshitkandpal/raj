@@ -29,9 +29,9 @@ const Frm = () => {
   }
 
   return (
-    <section className="section-3">
+    <section className="section-3 bg-gray-100 p-10">
       <div className="w-layout-blockcontainer container-2 w-container">
-        <div className="form-block w-form">
+        <div className="form-block w-form bg-white rounded-3xl px-8 py-10 shadow-lg">
           <form id="email-form" name="email-form" data-name="Email Form" method="get">
             <h1 className="heading-2">Contact Us</h1>
             <input className="text-field w-input" maxLength="256" name="entry.1002056275" data-name="Name" placeholder="Name" type="text" id="name" />
